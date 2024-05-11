@@ -1,0 +1,47 @@
+vaadin-vertical-layout.left {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    transition: all 0.2s ease-in;
+}
+
+vaadin-vertical-layout.right {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    transition: all 0.2s ease-in;
+}
+
+vaadin-vertical-layout.left:hover {
+    width: 120%;
+    transition: all 0.2s ease-in;
+}
+
+vaadin-vertical-layout.right:hover {
+    width: 120%;
+    transition: all 0.2s ease-in;
+}
+
+vaadin-vertical-layout.right-hidden {
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    transition: width 0.7s, opacity 0.3s, visibility 0.7s ease-in;
+}
+
+vaadin-vertical-layout.left-hidden {
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    transition: width 0.7s, opacity 0.3s, visibility 0.7s ease-in;
+}
+
+vaadin-button.clients {
+    --vaadin-button-text-color: black;
+}
+
+vaadin-button.workers {
+    --vaadin-button-text-color: white;
+}
